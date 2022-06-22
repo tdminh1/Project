@@ -1,0 +1,35 @@
+.navigation1 {
+    background-color: #fff;
+    width: 100%;
+    height: var(--header-nav);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+.navigation1__icon {
+    width: 16px;
+    height: 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.navigation1__name {
+    height: 20px;
+    width: 248px;
+    font-size: 14px;
+    margin-top: 18px;
+    margin-left: 56px;
+    margin-bottom: 18px;
+    margin-right: 1062px;
+    text-align: left;
+    letter-spacing: 0px;
+    opacity: 1;
+    font: normal normal normal 14px/20px SVN-Helvetica Now Display;
+    color: #303030;
+}
