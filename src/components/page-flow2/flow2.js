@@ -10,26 +10,28 @@ class Flow2 extends React.Component {
         return(
             <div className="flow2">
                 <Nav />
-                <div className="grid wide flow2-contents">
+                <div className="grid wide">
                     <div className="header">
                         <div className="header__search">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
-                                <g id="Group_17769" data-name="Group 17769" transform="translate(-51 -105)">
-                                    <rect id="Rectangle_5105" data-name="Rectangle 5105" width="14" height="14" transform="translate(51 105)" fill="none"/>
-                                    <g id="search-interface-symbol" transform="translate(51 105)">
-                                    <g id="_x34__4_">
-                                        <g id="Group_11619" data-name="Group 11619">
-                                        <path id="Path_15839" data-name="Path 15839" d="M13.873,13.238,10.259,9.682A5.717,5.717,0,0,0,11.787,5.8,5.844,5.844,0,0,0,5.9,0,5.844,5.844,0,0,0,.006,5.8a5.844,5.844,0,0,0,5.89,5.8A5.924,5.924,0,0,0,9.6,10.3l3.629,3.571a.458.458,0,0,0,.641,0A.441.441,0,0,0,13.873,13.238ZM5.9,10.7A4.945,4.945,0,0,1,.912,5.8,4.945,4.945,0,0,1,5.9.892,4.945,4.945,0,0,1,10.88,5.8,4.945,4.945,0,0,1,5.9,10.7Z" transform="translate(-0.006 0)" fill="#8f9398"/>
+                            <div className="header__search-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+                                    <g id="Group_17769" data-name="Group 17769" transform="translate(-51 -105)">
+                                        <rect id="Rectangle_5105" data-name="Rectangle 5105" width="14" height="14" transform="translate(51 105)" fill="none"/>
+                                        <g id="search-interface-symbol" transform="translate(51 105)">
+                                        <g id="_x34__4_">
+                                            <g id="Group_11619" data-name="Group 11619">
+                                            <path id="Path_15839" data-name="Path 15839" d="M13.873,13.238,10.259,9.682A5.717,5.717,0,0,0,11.787,5.8,5.844,5.844,0,0,0,5.9,0,5.844,5.844,0,0,0,.006,5.8a5.844,5.844,0,0,0,5.89,5.8A5.924,5.924,0,0,0,9.6,10.3l3.629,3.571a.458.458,0,0,0,.641,0A.441.441,0,0,0,13.873,13.238ZM5.9,10.7A4.945,4.945,0,0,1,.912,5.8,4.945,4.945,0,0,1,5.9.892,4.945,4.945,0,0,1,10.88,5.8,4.945,4.945,0,0,1,5.9,10.7Z" transform="translate(-0.006 0)" fill="#8f9398"/>
+                                            </g>
+                                        </g>
                                         </g>
                                     </g>
-                                    </g>
-                                </g>
-                            </svg>
-                            <input></input>
+                                </svg>
+                            </div>
+                            <input type="text" className="header__search-input" placeholder="Mã đơn, tên khách hàng, tên người bán" />
                         </div>
 
                         <div className="header__nav">
-                            <a class="nav-icon" href="#">
+                            <Link to='#' class="header__nav-card">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
                                     <g id="Group_12824" data-name="Group 12824" transform="translate(-13146 1664)">
                                         <rect id="Rectangle_5975" data-name="Rectangle 5975" width="14" height="14" transform="translate(13146 -1664)" fill="none"/>
@@ -45,9 +47,9 @@ class Flow2 extends React.Component {
                                         </g>
                                     </g>
                                 </svg>
-                                Thẻ
-                            </a>
-                            <a class="nav-icon" href="#">
+                                <span className="header__nav-card-label">Thẻ</span>
+                            </Link>
+                            <Link to='#' className="header__nav-card">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
                                     <g id="Group_12825" data-name="Group 12825" transform="translate(-12 -12)">
                                         <rect id="Rectangle_5976" data-name="Rectangle 5976" width="14" height="14" transform="translate(12 12)" fill="none"/>
@@ -61,10 +63,19 @@ class Flow2 extends React.Component {
                                         </g>
                                     </g>
                                 </svg>
-                                Bảng
-                            </a>
-                            <Link  ink to='/flow1'>
-                                <button>Tạo đơn</button>
+                                <span className="header__nav-card-table">Bảng</span>
+                            </Link>
+                            <Link to='#' className="header__nav-setting">
+                                <div className="header__nav-setting-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15.857" height="16" viewBox="0 0 15.857 16">
+                                        <g id="_01_align_center" data-name="01 align center" transform="translate(-0.107)">
+                                            <path id="Path_16446" data-name="Path 16446" d="M10.036,16h-4V13.658a6,6,0,0,1-1.9-1.1L2.107,13.733l-2-3.467L2.136,9.1a6.067,6.067,0,0,1,0-2.193L.107,5.733l2-3.467L4.136,3.439a6,6,0,0,1,1.9-1.1V0h4V2.342a6,6,0,0,1,1.9,1.1l2.029-1.173,2,3.467L13.936,6.9a6.067,6.067,0,0,1,0,2.193l2.029,1.17-2,3.467-2.029-1.172a6,6,0,0,1-1.9,1.1ZM7.369,14.667H8.7V12.649l.5-.129a4.656,4.656,0,0,0,2.162-1.253l.362-.369,1.749,1.01.667-1.155L12.4,9.745l.137-.5a4.7,4.7,0,0,0,0-2.5l-.137-.5,1.747-1.009-.667-1.155L11.727,5.1l-.362-.366A4.656,4.656,0,0,0,9.2,3.483l-.5-.132V1.333H7.369V3.351l-.5.129A4.656,4.656,0,0,0,4.706,4.733L4.344,5.1,2.6,4.089,1.929,5.244,3.676,6.253l-.137.5a4.7,4.7,0,0,0,0,2.5l.137.5L1.929,10.756,2.6,11.911,4.344,10.9l.362.369a4.656,4.656,0,0,0,2.162,1.25l.5.129Zm.667-4A2.667,2.667,0,1,1,10.7,8,2.667,2.667,0,0,1,8.036,10.667Zm0-4A1.333,1.333,0,1,0,9.369,8,1.333,1.333,0,0,0,8.036,6.667Z" transform="translate(0)" fill="#717171"/>
+                                        </g>
+                                    </svg>
+                                </div>
+                            </Link>
+                            <Link to='/flow1'>
+                                <button className="header-btn">Tạo đơn</button>
                             </Link> 
                         </div>   
                     </div>                    
