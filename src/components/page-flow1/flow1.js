@@ -12,16 +12,16 @@ class Flow1 extends React.Component {
         return(
             <div className="flow1">
                 <Nav />
-                <div className="grid wide flow1-contents">
+                <div className="grid wide1 flow1-contents">
                     <div className="header-flow1">
                         <div className="header-flow1 name">
                             <div className="header-flow1 name id">#4859340543695496594</div>
                             <div className="header-flow1 name compname">Cty TNHH MTV Mặt trời đỏ</div>
-                            <Link to='/'>
+                            {/* <Link to='/'>
                                 <div className="header-flow1 button">
                                     <div className="buttontext"> Duyệt đơn </div>
                                 </div>
-                            </Link>
+                            </Link> */}
                         </div>
                     </div>
                     

@@ -1,8 +1,108 @@
 .contentsflow1 {
-    height: 306px;
-    padding-bottom: 18px;
-    text-align: center;
-    font-size: 50px;
+    height: 305px;
+    width: 1276px;
+    padding-bottom: 16px;
     background-color: #FFFFFF;
     border-bottom: 1px solid #E0E0E0;
+}
+.category-container{
+    width: 297px;
+    height: 32px;
+    margin-left: 40px;
+    background: #FFFFFF00 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.category-container-position{
+    height: 32px;
+    width: 297px;
+}
+ .list1{
+    width: 96px;
+    height: 32px;
+    background: #FFFFFF00 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-right: 1px solid #C2C2C2;
+}
+    
+
+.text1{
+    width: 64px;
+    height: 19px;
+    margin-left: 16px;
+    margin-top: 6px;
+    margin-bottom: 7px;
+    margin-right: 16px;
+    text-align: left;
+    font: normal normal normal 14px/19px Open Sans;
+    letter-spacing: 0px;
+    color: #007FFF;
+    opacity: 1;
+    
+}
+.list2{
+    width: 108px;
+    height: 32px;
+    margin-left: 0px;
+    background: #FFFFFF00 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-right: 1px solid #C2C2C2;
+
+}
+.text2{
+    width: 70px;
+    height: 19px;
+    margin-left: 16px;
+    margin-top: 6px;
+    margin-bottom: 7px;
+    margin-right: 16px;
+    text-align: left;
+    font: normal normal normal 14px/19px Open Sans;
+    letter-spacing: 0px;
+    color: #007FFF;
+    opacity: 1;
+    
+}
+.list3{
+    width: 93px;
+    height: 32px;
+    background: #FFFFFF00 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+.detail-container{
+    height: 268px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background: #00000008 0% 0% no-repeat padding-box;
+}
+.detail-container.block1{
+    width: 642px;
+    height: 130px;
+    margin: 0 0 0 0px;
+    border-right: 5px solid #FFFFFF;
+    border-left:  5px solid #FFFFFF;
+}
+.detail-container.block1-1{
+    width: 642px;
+    height: 133px;
+    margin: 0 0 0 0px;
+    border-right: 5px solid #FFFFFF;
+    border-top: 5px solid #FFFFFF;
+    border-left:  5px solid #FFFFFF;
+}
+
+.detail-container.block2{
+    width: 320px;
+    height: 64px;
+    margin-top: 236px;
+    margin-left: 644px;
+    margin-right: 322px;
+    border-right: 5px solid #FFFFFF;
+    border-top: 5px solid #FFFFFF;
+}
+.detail-container.block3{
+    
 }

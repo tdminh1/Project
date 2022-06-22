@@ -1,7 +1,10 @@
 .flow1 {
-    box-sizing: border-box;
     width: 1366px;
     height: 1572px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
 }
 
 .header-flow1 {
