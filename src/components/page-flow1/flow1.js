@@ -3,8 +3,10 @@ import '../Basis/grid.css';
 import { Link } from "react-router-dom";
 import Nav from '..//Navigation/nav'; 
 import './flow1.css';
-
-
+import ContentsFlow1 from "./contents-flow1/contentsFlow1";
+import CartFlow1 from "./cart-flow1/cartFlow1";
+import CreditFlow1 from "./credit-action-flow1/creditFlow1";
+import ActionFlow1 from "./credit-action-flow1/actionFlow1";
 class Flow1 extends React.Component {
     render() {
         return(
@@ -20,7 +22,10 @@ class Flow1 extends React.Component {
                     </div>
                     
                     <div className="contents-flow1">
-                        <span className="">Contents List in FLOW1</span>
+                        <ContentsFlow1 />
+                        <CartFlow1 />
+                        <CreditFlow1 />
+                        <ActionFlow1 />
                     </div>
 
                 </div>
