@@ -1,0 +1,32 @@
+.navigation {
+    background-color: #fff;
+    border-bottom: solid #E0E0E0;
+    width: 100%;
+    height: var(--header-nav);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+
+.navigation__icon {
+    width: 16px;
+    height: 16px;
+    margin: 0 20px;
+}
+
+.navigation__name {
+    height: 24px;
+    font-size: 18px;
+    margin: 0 24px;
+    flex: 1;
+    color: #141414;
+}
+
+.navigation-boder {
+    position: fixed;
+    height: 32px;
+    border-right: solid #E0E0E0;
+    top: 12px;
+    left: 56px;
+}
+  

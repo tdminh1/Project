@@ -1,0 +1,22 @@
+.flow1 {
+    box-sizing: border-box;
+}
+
+.header-flow1 {
+    width: 100%;
+    height: 116px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+
+
+.contents-flow1 {
+    background-color: red;
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+    font-size: 150px;
+}
