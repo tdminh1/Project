@@ -1,6 +1,6 @@
 .contentsflow1 {
     height: 305px;
-    width: 1276px;
+    /* width: 1276px; */
     padding-bottom: 16px;
     background-color: #FFFFFF;
     border-bottom: 1px solid #E0E0E0;
@@ -8,7 +8,7 @@
 .category-container{
     width: 297px;
     height: 32px;
-    margin-left: 40px;
+    /* margin-left: 40px; */
     background: #FFFFFF00 0% 0% no-repeat padding-box;
     opacity: 1;
 }
@@ -74,8 +74,8 @@
     height: 268px;
     margin-top: 16px;
     margin-bottom: 16px;
-    margin-left: 40px;
-    margin-right: 40px;
+    /* margin-left: 40px; */
+    /* margin-right: 40px; */
     background: #00000008 0% 0% no-repeat padding-box;
 }
 .detail-container.block1{
