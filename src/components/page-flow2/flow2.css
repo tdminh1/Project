@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(241, 232, 219);
+    background-color: #ffffff;
 }
 
 .container {
@@ -17,18 +17,51 @@
 }
 
 .container__category {
-    height: 36px;
-    background-color: antiquewhite;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    border-radius: 12px;
+    background-color: #F7F7F7;
 }
 
-/* Css ở đây nha! */
-.container__list { 
+.container__category-position {
+    height: 36px;
+}
+
+.container__category-list {
+    height: 36px;
+    border-radius: 12px;
     text-align: center;
-    background-color: red;
+    line-height: 36px;
+}
+
+.container__category-position .container__category-list--active {
+    background-color: #ffffff;
+    box-shadow: 1px 1px 2px #00000029;
+}
+
+.container-flow2 {
+    margin-top: 18px;
+}
+
+.container__list {
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
-    height: 501px;
+    background-color: #F7F7F7;
+    height: 550px;
+}
+
+.container__list-title {    
+    height: 39px;
+    border-bottom: 0.5px solid #E0E0E0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container__list-item {
+    height: 511px;
+    max-height: 508px;
+    overflow-y: auto;
+
+}
+.container__list-item::-webkit-scrollbar {
+    display: none;
 }

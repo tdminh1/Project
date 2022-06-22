@@ -1,9 +1,9 @@
 import React from "react";
 import '../Basis/grid.css';
 import { Link } from "react-router-dom";
-import Nav from '..//Navigation/nav'; 
+import Nav from '../Navigation/nav'; 
 import './flow2.css';
-
+import ContentsFlow2 from "./contents-flow2/contentsFlow2";
 
 class Flow2 extends React.Component {
     render() {
@@ -71,37 +71,76 @@ class Flow2 extends React.Component {
                     
                     <div className="container">
                         <div className="container__category">
-                            <span>Chờ duyệt</span>
-                            <span>Đóng gói</span>
-                            <span>Vận chuyển</span>
-                            <span>Trả hàng</span>
-                            <span>Huỷ đơn</span>
-
+                            <div className="row sm-gutter container__category-position">
+                                <div className="col l-2-4 m-0 c-0">
+                                    <div className="container__category-list">Chờ duyệt</div>
+                                </div>
+                                <div className="col l-2-4 m-0 c-0">
+                                    <div className="container__category-list container__category-list--active">Đóng gói</div>
+                                </div>
+                                <div className="col l-2-4 m-0 c-0">
+                                    <div className="container__category-list">Vận chuyển</div>
+                                </div>
+                                <div className="col l-2-4 m-0 c-0">
+                                    <div className="container__category-list">Trả hàng</div>
+                                </div>
+                                <div className="col l-2-4 m-0 c-0">
+                                    <div className="container__category-list">Huỷ đơn</div>
+                                </div>
+                            </div>
                         </div>
                         
-                        <div className="row sm-gutter">
+                        <div className="row sm-gutter container-flow2">
                             <div className="col l-3 m-6 c-12">
                                 <div className="container__list">
-                                    <span>Contents List in FLOW2</span>
-                                    
+                                    <div className="container__list-title">
+                                        <span>CHỜ ĐÓNG GÓI</span>
+                                        <span>8 đơn</span>
+                                    </div>
+                                    <div className="container__list-item">
+                                        <ContentsFlow2 />                                    
+                                        <ContentsFlow2 />                                    
+                                        <ContentsFlow2 />                                    
+                                        <ContentsFlow2 />                                    
+                                        <ContentsFlow2 />                                    
+                                        <ContentsFlow2 />                                    
+                                        <ContentsFlow2 />                                    
+                                        <ContentsFlow2 />
+                                    </div>
                                 </div>
                             </div>
                             <div className="col l-3 m-6 c-12">
                                 <div className="container__list">
-                                    <span>Contents List in FLOW2</span>
-                                    
+                                    <div className="container__list-title">
+                                        <span>CHỨNG TỪ</span>
+                                        <span>2 đơn</span>
+                                    </div>
+                                    <div className="container__list-item">
+                                        <ContentsFlow2 />                                    
+                                        <ContentsFlow2 />   
+                                    </div>                                   
                                 </div>
                             </div>
                             <div className="col l-3 m-6 c-12">
                                 <div className="container__list">
-                                    <span>Contents List in FLOW2</span>
-                                    
+                                    <div className="container__list-title">
+                                        <span>SOẠN HÀNG</span>
+                                        <span>1 đơn</span>
+                                    </div>
+                                    <div className="container__list-item">
+                                        <ContentsFlow2 />  
+                                    </div>                                   
                                 </div>
                             </div>
                             <div className="col l-3 m-6 c-12">
                                 <div className="container__list">
-                                    <span>Contents List in FLOW2</span>
-                                    
+                                    <div className="container__list-title">
+                                        <span>ĐÃ ĐÓNG GÓI</span>
+                                        <span>1 đơn</span>
+                                    </div>
+                                    <div className="container__list-item">
+                                        <ContentsFlow2 />      
+                                    </div>                                 
                                 </div>
                             </div>
                         </div>

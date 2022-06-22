@@ -6,12 +6,21 @@
     text-decoration: none;
     display: flex;
     align-items: center;
+    position: relative;
   }
 
 .navigation__icon {
     width: 16px;
     height: 16px;
     margin: 0 20px;
+}
+
+.navigation-boder {
+    position: absolute;
+    height: 32px;
+    border-right: solid #E0E0E0;
+    top: 12px;
+    left: 56px;
 }
 
 .navigation__name {
@@ -22,11 +31,4 @@
     color: #141414;
 }
 
-.navigation-boder {
-    position: fixed;
-    height: 32px;
-    border-right: solid #E0E0E0;
-    top: 12px;
-    left: 56px;
-}
   
