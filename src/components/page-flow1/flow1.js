@@ -1,7 +1,7 @@
 import React from "react";
 import '../Basis/grid.css';
 import { Link } from "react-router-dom";
-import Nav from '..//Navigation/nav'; 
+import Nav from '..//Navigation/nav1'; 
 import './flow1.css';
 import ContentsFlow1 from "./contents-flow1/contentsFlow1";
 import CartFlow1 from "./cart-flow1/cartFlow1";
@@ -13,12 +13,16 @@ class Flow1 extends React.Component {
             <div className="flow1">
                 <Nav />
                 <div className="grid wide flow1-contents">
-
                     <div className="header-flow1">
-                        <span>Cty TNHH MTV Mặt trời đỏ</span>
-                        <Link to='/'>
-                            <button>Duyệt đơn</button>
-                        </Link>
+                        <div className="header-flow1 name">
+                            <div className="header-flow1 name id">#4859340543695496594</div>
+                            <div className="header-flow1 name compname">Cty TNHH MTV Mặt trời đỏ</div>
+                            <Link to='/'>
+                                <div className="header-flow1 button">
+                                    <div className="buttontext"> Duyệt đơn </div>
+                                </div>
+                            </Link>
+                        </div>
                     </div>
                     
                     <div className="contents-flow1">
